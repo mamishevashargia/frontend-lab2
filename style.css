@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 30px auto;
+    table-layout: fixed;
+}
+
+td {
+    border: 2px solid black;
+    height: 70px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Ширина чотирьох базових стовпців */
+td:nth-child(1) {
+    width: 25%;
+}
+
+/* Перший рядок */
+.first-row {
+    background-color: #058f8f;
+    color: white;
+}
+
+/* Другий блок таблиці */
+.second-row {
+    background-color: #f5f505;
+    color: black;
+}
+
+/* При наведенні кольори міняються */
+.first-row:hover {
+    background-color: #f5f505;
+    color: black;
+}
+
+.second-row:hover {
+    background-color: #058f8f;
+    color: white;
+}
+/* ----------------------- */
+/* Завдання 2. POSITION    */
+/* ----------------------- */
+
+.position-picture {
+    position: relative;
+    width: 250px;
+    height: 180px;
+    margin: 30px auto;
+}
+
+.circle {
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid black;
+    border-radius: 50%;
+
+    opacity: 0.6;
+}
+
+.circle1 {
+    background-color: lightcoral;
+
+    top: 10px;
+    left: 75px;
+}
+
+.circle2 {
+    background-color: lightskyblue;
+
+    top: 65px;
+    left: 35px;
+}
+
+.circle3 {
+    background-color: lightgreen;
+
+    top: 65px;
+    left: 115px;
+}
+
+
+/* ----------------------- */
+/* Завдання 2. TRANSFORM   */
+/* ----------------------- */
+
+.transform-picture {
+    position: relative;
+
+    width: 250px;
+    height: 180px;
+
+    margin: 30px auto;
+}
+
+.circle-transform {
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid black;
+    border-radius: 50%;
+
+    opacity: 0.6;
+
+    top: 40px;
+    left: 75px;
+}
+
+.circle-transform1 {
+    background-color: lightcoral;
+
+    transform: translate(0, -30px);
+}
+
+.circle-transform2 {
+    background-color: lightskyblue;
+
+    transform: translate(-40px, 25px);
+}
+
+.circle-transform3 {
+    background-color: lightgreen;
+
+    transform: translate(40px, 25px);
+}
